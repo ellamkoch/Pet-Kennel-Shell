@@ -30,3 +30,11 @@ Pet name: Sparky, Species dog, Happiness: 80.
 - Returning vs. logging values
 - Importance of keeping `return` and its value on the same line
 
+## Day 2 - Follow-Up Assignment: Exploring Factory Functions with a Pet Example
+### Objective:
+This assignment will help you understand and implement factory functions in JavaScript by creating a function that generates pet objects. You'll learn how to encapsulate object creation logic within a function and practice using factory functions to create multiple instances of pet objects.
+
+NOTE: The trick to this is to put object creation inside a function the, RETURN THAT OBJECT with a return statement.
+
+### Files used
+-index-2.js
