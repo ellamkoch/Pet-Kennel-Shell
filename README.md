@@ -99,3 +99,9 @@ One of the biggest challenges was understanding how to properly call methods on 
 
 I also learned the difference between using `console.log()` and `console.table()`. `console.table()` is best for displaying multiple objects (like all pets in the kennel), while `console.log()` should be used when printing individual messages returned from methods.
 
+## Day 4 - Assignment: Organizing and Feeding Pets in Multiple Kennels
+### Objective:
+This assignment will help you practice organizing objects into different arrays and using a for loop to perform operations on each array.
+
+### Files used
+index-4.js
