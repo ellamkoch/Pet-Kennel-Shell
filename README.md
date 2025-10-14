@@ -38,3 +38,25 @@ NOTE: The trick to this is to put object creation inside a function the, RETURN 
 
 ### Files used
 -index-2.js
+
+### Testing
+Used Code Runner with VS Code for testing again, same as I did for Day 1. Output shown, including the bonus was:
+Pet name: Blob, Species: Goat, Happiness: 50, Energy: 100.
+Pet name: Sylvester, Species: Cat, Happiness: 50, Energy: 100.
+Pet name: SpongeBob Square Pants, Species: Sponge, Happiness: 50, Energy: 100.
+You played with Blob! Happiness is now 60, and energy is now 80.
+Pet name: Blob, Species: Goat, Happiness: 60, Energy: 80.
+You fed Sylvester! Happiness is now 70, and energy is now 120.
+Pet name: Sylvester, Species: Cat, Happiness: 70, Energy: 120.
+SpongeBob Square Pants has rested. Energy is now fully restored to 100.
+Pet name: SpongeBob Square Pants, Species: Sponge, Happiness: 50, Energy: 100.
+
+### Key Concepts Learned
+- How to return objects from functions using the factory pattern
+- The importance of nesting methods inside the returned object
+- Understanding how `this` links methods to their own object’s data
+- The difference between object properties (data) and methods (behavior)
+- The benefit of `const` for variables that hold object references
+
+### Notes
+- Energy was not capped at 100, because the rubric didn’t require it. However, adding a simple if conditional could be used later to keep values realistic if needed.
