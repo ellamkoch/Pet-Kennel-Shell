@@ -60,3 +60,12 @@ Pet name: SpongeBob Square Pants, Species: Sponge, Happiness: 50, Energy: 100.
 
 ### Notes
 - Energy was not capped at 100, because the rubric didn’t require it. However, adding a simple if conditional could be used later to keep values realistic if needed.
+
+## Day 3 - Assignment: Managing Your Pet Kennel with JavaScript Arrays
+### Objective
+This assignment will help you practice using arrays in JavaScript by creating and managing a collection of pet objects. You'll learn how to add items to an array using both the push method and bracket notation.
+
+### Files Used
+-index-3.js
+
+### Testing
