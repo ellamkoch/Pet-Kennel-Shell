@@ -4,7 +4,7 @@ const pet = {
     species: "dog",
     happiness: 50, // don't need "" since this is a #. "" tells js that its a string.
 
-    // initial status reading
+    // initial status reading - must be nested so the function belongs to the object
      status() {
         console.log(`Pet name: ${this.name}, Species ${this.species}, Happiness: ${this.happiness}.`);
      },
@@ -12,13 +12,13 @@ const pet = {
     //method 1 - play
     play() {
         this.happiness += 10; // increases happiness by 10
-        return `You played with ${this.name}! Happiness is now ${this.happiness}.`; // returns this msg
+        return `You played with ${this.name}! Happiness is now ${this.happiness}.`; // returns this msg with updated values
         },
 
     // method 2 feed
     feed() {
         this.happiness += 20; // increases happiness by 20
-        return `You fed ${this.name}! Happiness is now ${this.happiness}.`; // returns this msg
+        return `You fed ${this.name}! Happiness is now ${this.happiness}.`; // returns this msg with updated values
         },
 
     // method 3 - updated status check
