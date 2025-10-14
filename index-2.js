@@ -14,7 +14,7 @@ function createPet(name, species) { // properties are in ()
 
     // play method
     play() {
-        this.happiness += 10; // increases energy by 10
+        this.happiness += 10; // increases happiness by 10
         this.energy -= 20;// decreases energy by 20
         return `You played with ${this.name}! Happiness is now ${this.happiness}, and energy is now ${this.energy}.`;
     },
@@ -31,7 +31,7 @@ function createPet(name, species) { // properties are in ()
         this.energy = 100;// changes energy to 100 if they rest
         return `${this.name} has rested. Energy is now fully restored to ${this.energy}.`;
     }
-      
+
 
     };
 }
