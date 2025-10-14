@@ -8,6 +8,12 @@ This assignment aims to enhance your understanding of JavaScript objects and met
 ### Files used
 -index.js
 
+### Bonus Features Implemented
+-Added a rename() method that allows changing the pet’s name dynamically.
+-Used template literals for cleaner output messages.
+-Added detailed console messages for each interaction, showing updated happiness after every action.
+-Commented code for clarity on object properties and method purposes.
+
 ### Testing
 After entering everything in per the directions, I used CodeRunner for testing. For my final output I had:
 -You played with Fluffy! Happiness is now 60.
@@ -39,6 +45,12 @@ NOTE: The trick to this is to put object creation inside a function the, RETURN 
 ### Files used
 -index-2.js
 
+### Bonus Features Implemented
+-Introduced the rest() method to fully restore a pet’s energy to 100.
+-Added multiple pet instances using the factory function to simulate a small “pet family.”
+-Implemented and tested both happiness and energy changes through method interactions.
+-Included inline comments explaining how this binds each method to the correct pet object.
+
 ### Testing
 Used Code Runner with VS Code for testing again, same as I did for Day 1. Output shown, including the bonus was:
 Pet name: Blob, Species: Goat, Happiness: 50, Energy: 100.
@@ -68,4 +80,22 @@ This assignment will help you practice using arrays in JavaScript by creating an
 ### Files Used
 -index-3.js
 
+### Bonus Features Implemented
+- Added maxEnergy per pet to prevent energy from going above 100.
+- Added checks to prevent energy from going below 0.
+- Added a cuddles() method to simulate an extra game mechanic that increases happiness and energy.
+- Used `forEach()` to call `rest()` on every pet in the kennel and then displayed the updated table.
+
 ### Testing
+All methods and features were tested in sequence:
+1. Displayed initial status for each pet.
+2. Added pets to the kennel array using both methods.
+3. Logged kennel contents with `console.table()`.
+4. Tested `cuddles()`, `play()`, and `feed()` methods individually.
+5. Used `forEach()` to make every pet rest and logged the updated kennel state.
+
+### Challenges & Lessons Learned
+One of the biggest challenges was understanding how to properly call methods on specific pets once they were inside the kennel array. I originally tried calling them like `kennel.pet1.play()` before realizing that `kennel` is an array, not an object with named keys. The correct approach is either to call the method on the variable itself (`pet1.play()`) or use array indexing (`kennel[0].play()`).
+
+I also learned the difference between using `console.log()` and `console.table()`. `console.table()` is best for displaying multiple objects (like all pets in the kennel), while `console.log()` should be used when printing individual messages returned from methods.
+
