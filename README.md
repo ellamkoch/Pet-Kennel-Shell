@@ -87,6 +87,7 @@ This assignment will help you practice using arrays in JavaScript by creating an
 - Used `forEach()` to call `rest()` on every pet in the kennel and then displayed the updated table.
 
 ### Testing
+Used CodeRunner to do the testing in VS Code.
 All methods and features were tested in sequence:
 1. Displayed initial status for each pet.
 2. Added pets to the kennel array using both methods.
@@ -105,3 +106,30 @@ This assignment will help you practice organizing objects into different arrays 
 
 ### Files used
 index-4.js
+
+### Bonus Features
+- Randomness: Added a helper function `getRandomInt(min, max)` that returns a random whole number in-range (inclusive).
+  Used in both the `feed()` and `bored()` methods.
+- Behavior variety: `bored()` simulates neglect by lowering happiness and energy values.
+- Modern looping: Implemented `forEach()` loops for cleaner, modern syntax.
+
+### Testing
+Used CodeRunner to do the testing in VS Code, checking console logs for all three arrays.
+Each pet showed unique happiness and energy values due to the random number generator.
+
+To further verify my bonus work, I tested the `bored()` method on all the dogs.
+Output confirmed that:
+- Random losses between 5–30 were applied correctly.
+- Happiness and energy decreased as expected.
+- Status updates reflected the new values each time.
+
+ ### Notes / Lessons Learned
+- I used Google a lot to understand how `forEach()` worked compared to `for` loops, then convert examples to fit my kennel arrays.
+- Also used Google to find a way to do the randomness as I thought I could do what we did in GameLab first for randomNumbers... but that was a big no!
+- It really helps to have clear, descriptive array names! (I accidentally called my `fishTank` a `fishKennel` at one point — oopsie, kitty!)
+- `forEach(pet => ...)` runs a function once for each pet in the array — no index number needed.
+- The classic `for (let i = 0; i < arr.length; i++)` version does the same thing, but it’s wordier.
+- Random integer refresher - `Math.floor(Math.random() * (max - min + 1)) + min -` => returns a whole number between min and max. Have to do the (max - min + 1) to make sure we're able to use the whole range identified, otherwise it uses what's within the identified range, not all of it as you would think it would.
+
+### Future Improvement Idea
+Rubric didn't call for this, but I could add logic in to keep the enrgy and the happiness going below 0 with the bored method.
