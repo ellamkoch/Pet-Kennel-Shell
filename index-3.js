@@ -27,7 +27,7 @@ function createPet(name, species, energy = 80, happiness = 50, maxEnergy = 100) 
 
     // feed method
     feed() {
-        this.happiness += 20; // increases energy by 20
+        this.happiness += 20; // increases happiness by 20
         this.energy += 20;// increases energy by 20
          if (this.energy > this.maxEnergy) { // bonus to keep energy from going over 100
            this.energy = this.maxEnergy; // makes energy equal the maxEnergy idenfitied above in the properties of the function createPet
