@@ -132,7 +132,7 @@ Output confirmed that:
 - Random integer refresher - `Math.floor(Math.random() * (max - min + 1)) + min -` => returns a whole number between min and max. Have to do the (max - min + 1) to make sure we're able to use the whole range identified, otherwise it uses what's within the identified range, not all of it as you would think it would.
 
 ### Future Improvement Idea
-Rubric didn't call for this, but I could add logic in to keep the enrgy and the happiness going below 0 with the bored method.
+Rubric didn't call for this, but I could add logic in to keep the energy and the happiness going below 0 with the bored method.
 
 ## Day 5 - Follow-Up Assignment: Managing Pet Energy and Happiness
 ### Objective
@@ -141,4 +141,16 @@ Update your pet objects to manage both happiness and energy with play and feed m
 ### Files used
 -index-5.js
 
+### Bonus Features
+-Implemented the bonus feature where each pets intial energy starts with a random value between 0 and 50.
 
+### Testing
+Used CodeRunner to do the testing in VS Code, checking console logs before and after each interaction to make sure everything was working correctly.
+
+### Future Improvement Idea
+Rubric didn't call for this, but I could add logic in to keep the energy and the happiness going below 0 at any time.
+
+## Final Note/Lesson learned for all days
+You may have noticed my comment style has changed in this one from my previous week 4 assignement. For this assignment, I switched to long-form comments as learning notes. My old shorthand wasn’t sticking in my brain like it normally does, so I wrote fuller comments that explain the code at almost each step. This made the logic easier to follow and will help during reviews when I'm comparing what I've done for a previous assignement to a new one, as I do that frequently to build upon what I've done before so I can get faster and reuse what I've done before, but update it to the new assignment.
+
+I did reuse a lot of the code in this one from one day to another, but i made a point to go back through the code and change up what needed to be changed the best I could. I may have missed a few comments, and sometimes I noticed after I was done with that day, which is why the comments for previous assignements were sometimes updated, even though I wasn't technically working on that day any more.
