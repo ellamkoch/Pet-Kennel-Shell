@@ -3,7 +3,7 @@ This is the repo for the CodeX Level 2 Week 4 assignment -  JavaScript Objects a
 
 ## Day 1
 ### Objective
-This assignment aims to enhance your understanding of JavaScript objects and methods by creating a simple pet object. You'll learn how to define properties, implement methods to interact with the object, and practice manipulating data within an object, reinforcing foundational object-oriented programming concepts.
+Create a pet object in JavaScript with properties and methods for playing, feeding, and checking status. Optionally, add a method to rename the pet and update its status. This assignment aims to enhance your understanding of JavaScript objects and methods by creating a simple pet object. You'll learn how to define properties, implement methods to interact with the object, and practice manipulating data within an object, reinforcing foundational object-oriented programming concepts.
 
 ### Files used
 -index.js
@@ -38,7 +38,7 @@ Pet name: Sparky, Species dog, Happiness: 80.
 
 ## Day 2 - Follow-Up Assignment: Exploring Factory Functions with a Pet Example
 ### Objective:
-This assignment will help you understand and implement factory functions in JavaScript by creating a function that generates pet objects. You'll learn how to encapsulate object creation logic within a function and practice using factory functions to create multiple instances of pet objects.
+Create a factory function in JavaScript to generate pet objects with properties and methods. Implement and test multiple pets, adding optional features like a rest method for extra credit. This assignment will help you understand and implement factory functions in JavaScript by creating a function that generates pet objects. You'll learn how to encapsulate object creation logic within a function and practice using factory functions to create multiple instances of pet objects.
 
 NOTE: The trick to this is to put object creation inside a function the, RETURN THAT OBJECT with a return statement.
 
@@ -75,7 +75,7 @@ Pet name: SpongeBob Square Pants, Species: Sponge, Happiness: 50, Energy: 100.
 
 ## Day 3 - Assignment: Managing Your Pet Kennel with JavaScript Arrays
 ### Objective
-This assignment will help you practice using arrays in JavaScript by creating and managing a collection of pet objects. You'll learn how to add items to an array using both the push method and bracket notation.
+Create pets using a factory function, add them to a "kennel" array using both push and bracket notation, and log the array. Optionally, add a rest method to increase happiness. This assignment will help you practice using arrays in JavaScript by creating and managing a collection of pet objects. You'll learn how to add items to an array using both the push method and bracket notation.
 
 ### Files Used
 -index-3.js
@@ -102,7 +102,7 @@ I also learned the difference between using `console.log()` and `console.table()
 
 ## Day 4 - Assignment: Organizing and Feeding Pets in Multiple Kennels
 ### Objective:
-This assignment will help you practice organizing objects into different arrays and using a for loop to perform operations on each array.
+Use factory functions to create pets, organize them into dog, cat, and fish kennels, then use for loops to feed each pet and display their updated happiness status. This assignment will help you practice organizing objects into different arrays and using a for loop to perform operations on each array.
 
 ### Files used
 index-4.js
@@ -133,3 +133,7 @@ Output confirmed that:
 
 ### Future Improvement Idea
 Rubric didn't call for this, but I could add logic in to keep the enrgy and the happiness going below 0 with the bored method.
+
+## Day 5 - Follow-Up Assignment: Managing Pet Energy and Happiness
+### Objective
+Update your pet objects to manage both happiness and energy with play and feed methods. Use for loops to play with pets, feed only those with low energy, and log status updates. This assignment will reinforce your understanding of JavaScript loops and conditionals by having you manage the energy and happiness of pets through playing and feeding.
