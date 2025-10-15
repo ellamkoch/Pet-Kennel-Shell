@@ -137,3 +137,8 @@ Rubric didn't call for this, but I could add logic in to keep the enrgy and the 
 ## Day 5 - Follow-Up Assignment: Managing Pet Energy and Happiness
 ### Objective
 Update your pet objects to manage both happiness and energy with play and feed methods. Use for loops to play with pets, feed only those with low energy, and log status updates. This assignment will reinforce your understanding of JavaScript loops and conditionals by having you manage the energy and happiness of pets through playing and feeding.
+
+### Files used
+-index-5.js
+
+
